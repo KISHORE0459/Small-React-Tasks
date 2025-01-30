@@ -1,0 +1,29 @@
+#container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+#projects-list {
+  margin-top: 20px;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project-ctn {
+  width: 20vw;
+  height: 20vw;
+  margin: 20px;
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid rgb(182, 182, 182);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
