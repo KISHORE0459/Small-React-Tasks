@@ -1,5 +1,5 @@
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
-import Itempacking from "./components/itempacking";
+import Itempacking from "./components/Itempacking";
 import Home from "./components/Home";
 import "./App.css";
 import QuizCardFliper from "./components/QuizCardFliper";
