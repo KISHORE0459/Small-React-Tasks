@@ -1,0 +1,128 @@
+#ctn-ctn {
+  width: 98.8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  overflow: hidden;
+}
+#ctn {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+#movie-container,
+#watched-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 40%;
+  min-width: 500px;
+  border: 2px solid;
+  min-height: 80vh;
+  border-radius: 15px;
+  background-color: rgb(4, 40, 68);
+  margin: 10px 20px;
+}
+.movie-ctn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  margin: 10px 0px;
+  padding: 10px;
+  box-shadow: 0px 0px 1px 1px rgb(150, 150, 150),
+    0px 0px 1px 1px rgb(223, 223, 223), 0px 0px 1px 1px rgb(255, 255, 255);
+}
+.movie-img {
+  flex: 2;
+  width: 40px;
+  height: 100px;
+}
+.movie-img > img {
+  width: auto;
+  height: auto;
+  max-width: 70px;
+  max-height: 100px;
+}
+.detail-ctn {
+  flex: 7;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.title > h3 {
+  color: white;
+}
+.details {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.details > h4 {
+  color: white;
+}
+.addtowatch {
+  flex: 1;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+}
+.starrating,
+.like {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+#watched-container > h3 {
+  color: white;
+}
+#watched-details {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#watched-details > h3 {
+  color: white;
+}
+#loading {
+  color: white;
+}
+
+@media screen and (max-width: 1100px) {
+  #ctn {
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #movie-container,
+  #watched-container {
+    min-width: 300px;
+  }
+  .title > h3 {
+    font-size: 13px;
+  }
+  .movie-ctn {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .details > h4 {
+    font-size: 13px;
+  }
+}

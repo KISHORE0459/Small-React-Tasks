@@ -12,6 +12,15 @@ const Home = () => {
         <div className="project-ctn">
           <Link to={"/QuizCardFlipper"}>Quiz With Flippers</Link>
         </div>
+        <div className="project-ctn">
+          <Link to={"/TextExtender"}>Text Extender</Link>
+        </div>
+        <div className="project-ctn">
+          <Link to={"/Amazonapi"}>Amazon Api</Link>
+        </div>
+        <div className="project-ctn">
+          <Link to={"/Omdb"}>OMDB Movies</Link>
+        </div>
       </div>
     </div>
   );
